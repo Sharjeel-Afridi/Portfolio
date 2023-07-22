@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: salmon;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,4 +36,11 @@
 .navbar a:hover,
 a.active{
     color: #00abf0;
+}
+
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg, #031540 65%, #fff 35%);
+    display: flex;
+    align-items: center;
 }
