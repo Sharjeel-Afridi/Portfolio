@@ -62,8 +62,9 @@ a.active{
 
 .home-image img{
     position: relative;
-    left: 40px;
-    max-width: 700px;
+    left: 80px;
+    top: 110px;
+    max-width: 750px;
     border-radius: 50%;
 }
 
