@@ -163,8 +163,6 @@ a.active{
 @media (max-width: 600px){
     #menu {
         display: block;
-        height: 6vw;
-        width: 6vw;
     }
     .navbar a{
         font-size: 6vw;
