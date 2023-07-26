@@ -19,18 +19,23 @@
 }
 
 .logo {
-    font-size: 25px;
+    font-size: 1.6vw;
     color: #031540;
     text-decoration: none;
     font-weight: 700;
 }
 .navbar a {
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #fff;
     text-decoration: none;
-    font-weight: 500px;
+    font-weight: 26vw;
     margin-left: 35px;
     transition: .3s;
+}
+
+#menu{
+    font-size: 2vx;
+    display: none;
 }
 
 .navbar a:hover,
@@ -51,39 +56,40 @@ a.active{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 25.5vw;
+    height: 25.5vw;
     background: #031540;
     border-radius: 50%;
-    border: 25px solid #fff;
+    border: 1.65vw solid #fff;
     overflow: hidden;
-    outline: 25px solid #031540;
+    outline: 1.65vw solid #031540;
 }
 
 .home-image img{
     position: relative;
-    left: 80px;
-    top: 110px;
-    max-width: 750px;
+    left: 4.4vw;
+    top: 5.9vw;
+    max-width: 37.9vw;
     border-radius: 50%;
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 32vw;
     color:#fff;
     text-align: right;
 }
 .home-content h1{
-    font-size: 55px;
+    font-size: 3vw;
     line-height: 1.2;
 }
 
 .home-content h3{
-    font-size: 40px;
+    font-size: 2.2vw;
     color: transparent;
     -webkit-text-stroke: .5px #fff;
     background-image: linear-gradient(#00abf0, #00abf0);
     background-repeat: no-repeat;
+    background-clip: text;
     -webkit-background-clip: text;
     background-position: -410px 0 ;
     animation: animateText 6s linear infinite;
@@ -103,7 +109,7 @@ a.active{
 }
 
 .home-content p{
-    font-size: 16px;
+    font-size: 1.2vw;
     margin-top: 20px;
 }
 
@@ -115,15 +121,15 @@ a.active{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 2.4vw;
+    height: 2.4vw;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #00abf0;
     text-decoration: none;
-    margin-left: 12px;
+    margin-left: 1vw;
     transition: .5s;
 }
 
@@ -152,6 +158,24 @@ a.active{
     color: #fff;
     border-color: #00abf0;
     box-shadow: none;
+}
+
+@media (max-width: 600px){
+    #menu {
+        display: block;
+        height: 6vw;
+        width: 6vw;
+    }
+    .navbar a{
+        font-size: 6vw;
+        display: none;
+    }
+    .btn{
+        font-size: 2vw;
+    }
+    .logo{
+        font-size: 5vw;
+    }
 }
 
 
